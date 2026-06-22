@@ -1,5 +1,5 @@
-# 🧫 Spleen CSC Single-Cell Analysis Toolkit
-
+#  Spleen CSC Single-Cell Analysis Toolkit
+<img src="https://img.icons8.com/color/48/spleen.png" width="24" height="24" alt="spleen"/>
  This project is split into modular Nextflow pipelines designed to handle data processing from differential expression through downstream biological pathway validation.
 
 ---
@@ -22,3 +22,8 @@ The initial phase responsible for quality control, filtering, processing via Seu
 ### 2.  [Pathway Enrichment Pipeline](./Pathway_enrichment_pipeline_nf)
 The downstream phase that ingests the metrics from the DEG step to perform pathway expansion and functional analysis.
 * *Requires configuring the Zenodo mouse database reference in line 91.*
+
+
+### 3.  [Cell-Cell communication]
+Using Liana and crosstalkR to show the differential interactivity with bone marrow niche during fibrosis
+
