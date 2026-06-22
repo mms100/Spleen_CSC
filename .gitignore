@@ -1,0 +1,6 @@
+*.rds
+*.RData
+*.Robj
+*.csv
+*.tsv
+.DS_Store
