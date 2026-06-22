@@ -1,3 +1,15 @@
-# This pathway analysis depeands on the results from the DEG analysis pipeline
-# please update line 91 to have the realtive path of the mouse database needed for pathway analysis in your machine instead of this "/path/to/nf-tutorial/Msg_mouse_database.csv", Note: you can download the used database from Zenodo repository in the main paper
-# To recreate the environment run this: conda env create -f environment.yml
+#  Pathway Enrichment Analysis Pipeline
+
+This repository contains the Nextflow pipeline for downstream **Pathway Enrichment Analysis**. 
+
+>  **Prerequisite:** This pipeline is dependent on, and runs using, the output results generated from the [DEG Analysis Pipeline](../scRNA-seq_nextflow_DEG_pipeline_nf).
+
+---
+
+##  Getting Started
+
+### 1. Environment Setup
+To replicate the exact environment and install all the necessary R/Bioconductor dependencies required for this analysis, run the following command using Conda:
+
+```bash
+conda env create -f environment.yml
